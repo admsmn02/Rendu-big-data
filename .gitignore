@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+.venv/
+venv/
+ENV/
+*.env
+.env
+
+# Prefect
+.prefect/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+
+# Data outputs / artifacts
+/data/database/
+/data/processed/
+/data/tmp/
+/data/output/
+
+# Logs
+*.log
+
+# Editor settings
+.vscode/
+.idea/
