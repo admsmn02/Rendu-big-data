@@ -36,6 +36,6 @@ def get_minio_client() -> Minio:
 def configure_prefect() -> None:
     os.environ["PREFECT_API_URL"] = PREFECT_API_URL
 
-if name == "main":
+if __name__ == "__main__":
     client = get_minio_client()
     print(client.list_buckets())

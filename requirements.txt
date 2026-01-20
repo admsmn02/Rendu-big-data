@@ -1,6 +1,7 @@
 prefect
 minio
 pandas
+pyspark==3.5.1
 pyarrow
 faker
 streamlit
